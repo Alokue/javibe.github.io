@@ -1,4 +1,4 @@
-This is a website built for Benjamin Frederick Clardy V.
+This is a website built for Benjamin Frederick Clardy V; God.
 
 Beer names:
 
