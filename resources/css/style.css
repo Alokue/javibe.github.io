@@ -1,0 +1,243 @@
+/*---------------------*/
+/* x */
+/*---------------------*/
+
+
+/*-------------*/
+/* basic setup */
+/*-------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Mina', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*---------------------*/
+/* reusable components */
+/*---------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 175%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 150px;
+    background-color: #321;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+/*************************************/
+/* HEADER */
+/*************************************/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/barrels-background-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    width: 100%;
+    margin-top: 33px;
+    margin-right: 8px;
+    
+}
+
+.main-nav li {
+    text-align: right;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: #bbb;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #fff;
+}
+
+.header-main {
+    color: #ddd;
+    font-size: 300%;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.header-main h2 {
+    font-size: 110%;
+}
+
+.header-main h2:after {
+    text-decoration: none;
+}
+
+
+
+/*************************************/
+/* PRODUCT */
+/*************************************/
+
+.section-product {
+    background-color: #f4f4f4;
+    height: 100vh;
+    font-size: 85%;
+    /* color: #000; */
+}
+.section-product h2 {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.section-product h3 {
+    text-align: center;
+}
+
+.beer-showcase {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    
+}
+
+.beer-showcase li {
+    display: block;
+    float: right;
+    
+}
+
+.beer-photo {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.beer-photo img {
+    width: 100%;
+    transform: scale(.7);
+    opacity: .8;
+    transition: opacity .7s;
+    margin-top: -7em;
+}
+
+.beer-photo img:hover {
+    opacity: 1;
+    /* transform: scale(.65); */
+}
+
+/*************************************/
+/* PROCESS */
+/*************************************/
+
+.section-process {
+    /* height: 100vh; */
+    height: 444px;
+    margin: 1em 0;
+}
+
+.section-process div p {
+    width: 15em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*************************************/
+/* BEN */
+/*************************************/
+
+.section-ben {
+    background-color: #f4f4f4;
+    height: 100vh;
+    /* color: #000; */
+}
+
+.ben-showcase {
+    display:inline-block;
+    width: 100%;
+    text-align: justify;
+}
+
+.ben-showcase img {
+    block-size: 15em;
+    border-radius: 70%;
+}
+
+.ben-showcase p {
+    text-align: justify;
+    width: 30em;
+}
+
+/*Next; clean up THE MAKER*/
+
+
+/*************************************/
+/* FOOTER */
+/*************************************/
+
+footer {
+    background-color: #888;
+    padding: 30px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+}
