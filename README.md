@@ -1,8 +1,7 @@
-This is a website built for Benjamin Frederick Clardy V.
+<h1>Fantasy Brewing co.</h1>
 
-Beer names:
-
-Constant:
+<h3>Beer names:</h3>
+**Constant:**
 * 15% Sweet Mead - Abbot's Apiary
 * Vanilla Cream Ale - Jolly Troubadour
 * Vanilla Mocha Porter - Magic Beans
@@ -10,17 +9,17 @@ Constant:
 * Scotch Ale - Deepmines' Dowry
 * Imperial Stout - Tyrant’s Keep
 
-Other Options:
+**Other Options:**
 * Bock - Trusty Woodsman's Axe
 * Red Ale - Royal Blood
 * IPA - Feral Elf
 * NE IPA - High Court Fey
 
-Seasonal:
+**Seasonal:**
 * Blueberry Shandy - Blue Sea Chanty
 * Cardamom Cream Ale - Rifter #1
 
-Experimental:
+**Experimental:**
 * Vanilla Golden Stout - Touch of the Muse
 * Cayenne Imperial Stout - Archmage’s Tower
 * Dopplebock - Woodsman's Ox
@@ -30,15 +29,14 @@ Experimental:
 * Strawberry Cider -
 * Pear Cider -
 
-Beerless Names:
+**Beerless Names:**
 * Lovely Flautist
 * Scheming Sea Witch
 * Smuggler's Secret
 * Stalwart Captain
 * Tentatively Joust Rewards
 
-**TODO**
-
+<h3>TODO</h3>
 - [ ] Nanobrewery, not microbrewery
 - [ ] Give Maker a margin or center
 - [ ] Nav links brighter
