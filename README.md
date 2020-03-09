@@ -37,6 +37,7 @@
 * Tentatively Joust Rewards
 
 <h3>TODO</h3>
+
 - [ ] Nanobrewery, not microbrewery
 - [ ] Give Maker a margin or center
 - [ ] Nav links brighter
