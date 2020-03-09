@@ -1,7 +1,7 @@
 This is a website built for Benjamin Frederick Clardy V.
 
 Beer names:
-Tentatively Joust Rewards
+
 Constant:
 15% Sweet Mead - Abbot's Apiary
 Vanilla Cream Ale - Jolly Troubadour
@@ -35,3 +35,4 @@ Lovely Flautist
 Scheming Sea Witch
 Smuggler's Secret
 Stalwart Captain
+Tentatively Joust Rewards
